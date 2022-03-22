@@ -11,6 +11,11 @@ import hello.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/*
+*
+* @Configuration 안쓰면 -> Method annotated with @Bean is called directly. Use dependency injection instead.
+* @Bean으로 주석이 달린 메소드가 직접 호출됩니다. 대신 의존성 주입을 사용하십시오.
+* */
 @Configuration
 public class AppConfig {
 
